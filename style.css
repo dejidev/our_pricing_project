@@ -1,0 +1,244 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.container{
+    /* border: 5px solid grey; */
+    background-color: aliceblue;
+    margin: 25px;
+    padding: 25px;
+    line-height: 10px;
+    justify-content: center;
+    box-shadow: 4px 4px 8px 0  rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.top{
+    margin: 15px auto ;
+    text-align: center;
+}
+
+.box{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding: 15px;
+    margin: 8px;
+    justify-content: center;
+}
+
+h1{
+    font-weight: 700;
+}
+
+.box1{
+    /* border: 1px solid grey; */
+    border-radius: 10px;
+    width: 15vw;
+    text-align: center;
+    padding: 5px 20px 0 20px;
+    margin: 30px 5px ;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.box3{
+    border-radius: 10px;
+    width: 15vw;
+    text-align: center;
+    padding: 5px 20px 0 20px;
+    margin: 30px 5px ;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.box2{
+    border-radius: 10px;
+    width: 18vw;
+    text-align: center;
+    padding: 45px 30px 45px;
+    margin: 5px 0 0px 0;
+    color: #ffffff;
+    background-image: linear-gradient(to right, rgb(53, 131, 184), rgb(74, 74, 143));
+}
+
+
+.contain{
+    height: 40px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  /** Switch
+   -------------------------------------*/
+  
+  .switch input {
+    position: absolute;
+    opacity: 0;
+  }
+  
+  /**
+   * 1. Adjust this to size
+   */
+  
+  .switch {
+    display: inline-block;
+    font-size: 20px; /* 1 */
+    height: 1em;
+    width: 2em;
+    background:  rgb(74, 74, 143);
+    border-radius: 1em;
+  }
+  
+  .switch div {
+    height: 1em;
+    width: 1em;
+    border-radius: 1em;
+    background:  #ffffff;
+    box-shadow: 0 0.1em 0.3em rgba(0,0,0,0.3);
+    -webkit-transition: all 300ms;
+       -moz-transition: all 300ms;
+            transition: all 300ms;
+  }
+  
+  .switch input:checked + div {
+    -webkit-transform: translate3d(100%, 0, 0);
+       -moz-transform: translate3d(100%, 0, 0);
+            transform: translate3d(100%, 0, 0);
+  }
+
+span{
+    padding: 10px;
+}
+
+.lrn{
+    color: white;
+    background-image: linear-gradient(to right, rgb(53, 131, 184), rgb(74, 74, 143)) ;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.lrx{
+    color: blue;
+    background-color: #ffffff ;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+/* Mobile */
+
+@media (max-width: 840px){
+    .container{
+        /* border: 5px solid grey; */
+        
+        margin: 5px;
+        padding: 5px;
+        line-height: 15px;      
+        justify-content: center;
+        box-shadow: 4px 4px 8px 0  rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    
+    .top{
+        margin: 15px auto ;
+        text-align: center;
+    }
+    
+    .box{
+
+        padding: 10px;
+        margin: 8px;
+        justify-content: center;
+    }
+    
+    h1{
+        font-weight: 600;
+    }
+    
+    .box1{
+
+        width: 25vw;
+
+    }
+    
+    .box3{
+
+        width: 25vw;
+
+    }
+    
+    .box2{
+
+        width: 30vw;
+       
+    }
+    
+   
+
+}
+
+@media (max-width: 520px){
+    .container{
+        background-color: aliceblue;
+        padding: 5px;
+        line-height: 10px;
+        justify-content: center;
+        box-shadow: 4px 4px 8px 0  rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    
+    .top{
+        margin: 15px auto ;
+     }
+    
+    .box{
+        display: block;
+        text-align: center;
+        padding: 15px;
+        justify-content: center;
+    }
+    
+    h1{
+        font-weight: 700;
+    }
+    
+    .box1{
+        border-radius: 5px;
+        width: 75vw;
+        text-align: center;
+        padding: 5px 10px 5px 10px;
+        margin: 0 ;
+        background-color: #ffffff;
+        margin-bottom: 15px;
+    }
+    
+    .box3{
+        border-radius: 5px;
+        width: 75vw;
+        text-align: center;
+        padding: 5px 10px 5px 10px;
+        margin: 0  ;
+        margin-bottom: 15px;
+        background-color: #ffffff;
+    }
+    
+    .box2{
+        border-radius: 5px;
+        width: 75vw;
+        text-align: center;
+        padding: 5px 10px 5px 10px;
+        margin: 0  ;
+        margin-bottom: 15px;
+        background-image: linear-gradient(to right, rgb(53, 131, 184), rgb(74, 74, 143));
+    }
+    
+    
+}
+@media (max-width: 420px){
+   
+}
+@media (max-width: 350px){
+    
+}
+    
